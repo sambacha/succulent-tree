@@ -1,30 +1,5 @@
-# Proxima CLI
+# `commandlineInterface`
 
-<!--
-
-init
-
-generate
-
-build
-
-run
-
-publish
-
-remove
-
-deploy
-
--->
-
-## Installation
-
-```
-git clone https://github.com/proxima-one/proxima-cli
-cd /proxima-cli
-
-```
 
 <!--
 Remember the cli should be downloaded as a global variable
@@ -51,19 +26,18 @@ Initializing a new project....
 Completed
 ```
 
-#### Include ABI Code
+####  ABI Code
 
-You can include the raw text of the ABI code. For this instance, we have already loaded an abi code for the IDEX exchange.
-Featured in abi/idex_abi.json.
+You can include the raw text of the ABI code. 
 
-#### Update Config
+####  Config
 
 For now we look at the config.yml to include the contract address, the abi code, and datasource.
 
 ```yaml
 name: [YOUR Name]
 abi: ./abi/idex_abi.json
-contract: "0x2a0c0DBEcC7E4D658f48E01e3fA353F44050c208"
+contract: "CONTRACT_ADDRESS"
 datasource: Ethereum
 id: ID
 owner: Owner
