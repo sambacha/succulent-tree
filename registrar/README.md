@@ -1,6 +1,6 @@
-# Proxima Registry
+#  Registry
 
-The Proxima Registry is designed to interact with the chain, and the registry.
+The  Registry is designed to interact with the chain, and the registry.
 
 ## Installation
 
