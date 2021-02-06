@@ -1,15 +1,14 @@
 {
-	"name": "proxima-db",
-	"version": "0.0.01",
-	"description": "ProximaDB authenticated database",
+	"name": "auth-db",
+	"version": "0.0.1",
+	"description": "authenticated database",
 	"main": "index.js",
 	"scripts": {
 		"test": "node test/test-case-ruffle.js"
 	},
 	"keywords": [
-		"proxima"
+		"timber"
 	],
-	"author": "chase",
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
